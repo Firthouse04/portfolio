@@ -1,77 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jannathul Firthouse A | Full Stack Developer</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-        body { background-color: #0f172a; color: #f8fafc; line-height: 1.6; }
-        header { text-align: center; padding: 80px 20px; background: linear-gradient(135deg, #1e293b, #0f172a); }
-        h1 { font-size: 2.5rem; color: #38bdf8; margin-bottom: 10px; }
-        p.subtitle { font-size: 1.2rem; color: #94a3b8; max-width: 600px; margin: 0 auto 20px; }
-        .btn { display: inline-block; padding: 10px 20px; background-color: #0284c7; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 5px; }
-        .btn:hover { background-color: #0369a1; }
-        section { max-width: 900px; margin: 40px auto; padding: 0 20px; }
-        h2 { font-size: 1.8rem; color: #38bdf8; border-bottom: 2px solid #334155; padding-bottom: 8px; margin-bottom: 20px; }
-        .skills-grid { display: flex; flex-wrap: wrap; gap: 10px; }
-        .skill-badge { background-color: #1e293b; color: #38bdf8; border: 1px solid #334155; padding: 8px 16px; border-radius: 20px; font-weight: 500; }
-        .project-card { background-color: #1e293b; border: 1px solid #334155; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
-        .project-title { font-size: 1.3rem; color: #f1f5f9; margin-bottom: 8px; }
-        footer { text-align: center; padding: 40px; border-top: 1px solid #334155; color: #64748b; font-size: 0.9rem; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jannathul Firthouse A | Full Stack Developer</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    body { background-color: #0d1117; color: #c9d1d9; line-height: 1.6; padding: 20px; max-width: 900px; margin: auto; }
+    header { text-align: center; padding: 40px 0; border-bottom: 1px solid #30363d; }
+    h1 { color: #58a6ff; font-size: 2.5rem; margin-bottom: 10px; }
+    h3 { color: #8b949e; font-weight: 400; margin-bottom: 15px; }
+    .btn-container { margin-top: 20px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+    .btn { background: #21262d; color: #58a6ff; padding: 10px 18px; border: 1px solid #30363d; border-radius: 6px; text-decoration: none; font-weight: 600; }
+    .btn:hover { background: #30363d; }
+    .btn-highlight { background: #238636; color: #fff; border: none; }
+    .btn-highlight:hover { background: #2ea043; }
+    section { padding: 30px 0; border-bottom: 1px solid #30363d; }
+    h2 { color: #58a6ff; margin-bottom: 15px; font-size: 1.5rem; }
+    .skills-grid { display: flex; flex-wrap: wrap; gap: 10px; }
+    .skill-badge { background: #161b22; border: 1px solid #30363d; padding: 6px 14px; border-radius: 20px; font-size: 0.9rem; color: #f0f6fc; }
+    .card { background: #161b22; border: 1px solid #30363d; padding: 20px; border-radius: 8px; margin-bottom: 15px; }
+    .card h3 { color: #f0f6fc; margin-bottom: 5px; }
+    .card p { font-size: 0.95rem; }
+    .sub-text { color: #8b949e; font-size: 0.85rem; margin-bottom: 10px; }
+    footer { text-align: center; padding: 20px 0; color: #8b949e; font-size: 0.85rem; }
+  </style>
 </head>
 <body>
 
-    <header>
-        <h1>Jannathul Firthouse A</h1>
-        <p class="subtitle">Full Stack Developer specializing in Java, Spring Boot, React.js, Node.js, and MySQL.</p>
-        <a href="mailto:jannathfirthouse2005@gmail.com" class="btn">Hire Me</a>
-        <a href="https://github.com/Firthouse04" target="_blank" class="btn" style="background-color: #334155;">GitHub</a>
-    </header>
+  <!-- Hero / Header Section -->
+  <header>
+    <h1>Jannathul Firthouse A 👋</h1>
+    <h3>Full Stack Developer (Java | Spring Boot | React.js | Node.js | Nest.js)</h3>
+    <p>Building scalable web applications, RESTful APIs, and seamless UI experiences.</p>
+    
+    <div class="btn-container">
+      <a href="#contact" class="btn btn-highlight">Hire Me</a>
+      <a href="https://github.com/Firthouse04" target="_blank" class="btn">GitHub</a>
+      <a href="https://linkedin.com/in/jannathul-firthouse" target="_blank" class="btn">LinkedIn</a>
+      <a href="mailto:jannathfirthouse2005@gmail.com" class="btn">Email Me</a>
+    </div>
+  </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Passionate and detail-oriented Software Developer with hands-on experience building responsive web applications, designing RESTful APIs, and managing freelance client solutions. I focus on writing clean, scalable code and delivering seamless user experiences.</p>
-    </section>
+  <section>
+    <h2>About Me</h2>
+    <p>Passionate and detail-oriented Software Developer with hands-on experience in Full Stack Development. Experienced in building responsive web applications, developing RESTful APIs, and delivering client-focused freelance solutions with a strong foundation in Object-Oriented Programming and modern web architectures.</p>
+  </section>
 
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <div class="skills-grid">
-            <span class="skill-badge">Java</span>
-            <span class="skill-badge">Spring Boot</span>
-            <span class="skill-badge">React.js</span>
-            <span class="skill-badge">Node.js</span>
-            <span class="skill-badge">JavaScript</span>
-            <span class="skill-badge">TypeScript</span>
-            <span class="skill-badge">MySQL</span>
-            <span class="skill-badge">HTML5 & CSS3</span>
-            <span class="skill-badge">REST APIs</span>
-            <span class="skill-badge">Git & GitHub</span>
-        </div>
-    </section>
 
-    <section id="projects">
-        <h2>Featured Projects</h2>
-        <div class="project-card">
-            <div class="project-title">Full Stack Web Application</div>
-            <p>Developed an end-to-end web application with React frontend and Spring Boot / Node backend, featuring RESTful API integration and MySQL database architecture.</p>
-        </div>
-        <div class="project-card">
-            <div class="project-title">Freelance Web Client Solutions</div>
-            <p>Designed and built custom, responsive web pages for clients with optimized UI/UX and cross-browser compatibility.</p>
-        </div>
-    </section>
+  <section>
+    <h2>Education</h2>
+    <div class="card">
+      <h3>Bachelor of Technology (B.Tech) - Information Technology</h3>
+      <p class="sub-text">Aalim Muhammed Salegh College of Engineering, Chennai, India | 2022 - 2026</p>
+      <p><strong>CGPA:</strong> 8.32</p>
+    </div>
+  </section>
 
-    <section id="contact">
-        <h2>Get In Touch</h2>
-        <p>Email: <strong>jannathfirthouse2005@gmail.com</strong></p>
-        <p>Location: Chennai, India</p>
-    </section>
+  <!-- Technical Skills Section -->
+  <section>
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <span class="skill-badge">Java</span>
+      <span class="skill-badge">JavaScript</span>
+      <span class="skill-badge">TypeScript</span>
+      <span class="skill-badge">Spring Boot</span>
+      <span class="skill-badge">React.js</span>
+      <span class="skill-badge">Node.js</span>
+      <span class="skill-badge">Nest.js</span>
+      <span class="skill-badge">HTML5 & CSS3</span>
+      <span class="skill-badge">MySQL</span>
+      <span class="skill-badge">JDBC</span>
+      <span class="skill-badge">RESTful APIs</span>
+      <span class="skill-badge">Git & GitHub</span>
+      <span class="skill-badge">Postman</span>
+      <span class="skill-badge">VS Code</span>
+      <span class="skill-badge">Eclipse</span>
+    </div>
+  </section>
 
-    <footer>
-        <p>© 2026 Jannathul Firthouse A. Built with HTML & CSS.</p>
-    </footer>
+  
+  <section>
+    <h2>Work Experience</h2>
+    <div class="card">
+      <h3>Freelance Web Developer</h3>
+      <p class="sub-text">Collaborative Client Projects | Aug 2026 - Present</p>
+      <ul>
+        <li>Designed and developed custom, responsive web applications using HTML, CSS, JavaScript, TypeScript, React.js, and Node.js.</li>
+        <li>Collaborated directly with clients to gather requirements, deliver user-friendly UI/UX, and ensure cross-browser compatibility.</li>
+        <li>Integrated backend REST APIs and optimized frontend performance for optimal user experience.</li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    
+    <!-- Project 1 -->
+    <div class="card">
+      <h3>Employee Management System (CRUD Application)</h3>
+      <p>Developed a scalable RESTful API application using Java and Spring Boot to streamline employee data management. Implemented core CRUD operations integrated with MySQL database and executed end-to-end API testing using Postman.</p>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="card">
+      <h3>Attendance Management System</h3>
+      <p>Designed and built a web-based Attendance Management System to track and record daily student/employee attendance efficiently. Integrated database logging, automated report generation, and built a user-friendly interface for easy monitoring.</p>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="card">
+      <h3>Freelance Web Client Solutions (Node.js & React)</h3>
+      <p>Designed and developed full-stack freelance web applications using React.js for interactive UI and Node.js with Express for backend APIs. Delivered custom solutions tailored to client requirements with optimized performance and responsive design.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Certifications & Leadership</h2>
+    <div class="card">
+      <p><strong>Certification:</strong> Java Full Stack Development - Blue Ball Technologies</p>
+      <p><strong>Leadership:</strong> Overall Event Coordinator & Technical Coordinator (Paper Presentation) at Ragnork'25 Symposium</p>
+    </div>
+  </section>
+
+ 
+  <section id="contact">
+    <h2>Get In Touch</h2>
+    <p>📧 <strong>Email:</strong> jannathfirthouse2005@gmail.com</p>
+    <p>📞 <strong>Phone:</strong> +91 9840824192</p>
+    <p>📍 <strong>Location:</strong> Chennai, India</p>
+    <p>🔗 <strong>LinkedIn:</strong> linkedin.com/in/jannathul-firthouse</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Jannathul Firthouse A. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
